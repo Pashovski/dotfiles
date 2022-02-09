@@ -46,3 +46,5 @@ source $ZSH/oh-my-zsh.sh
 
 
 eval "$(starship init zsh)"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
